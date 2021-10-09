@@ -1,0 +1,170 @@
+body {
+  font-family: Arial;
+}
+header{
+    background-color:#00AF1C ;
+    height: 60px;
+    padding-top: 12px;
+    padding-left: 20px;
+    padding-right: 50px;
+    position: fixed;
+    width: 97%;
+    
+}
+header .logo h1{
+    color: #fff;
+    font-size: 32px;
+    display:block;
+    float: left;
+    margin-top: 5px;
+}
+
+header nav ul li{
+    display:block;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px; 
+}
+header a {
+  color: #fff;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+main {
+  padding: 100px;
+  line-height: 2;
+}
+.title-home {
+  color: #3b06d2;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+.title-servicios {
+  color: #d206b2;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.title-portafolio {
+  color: #aad206;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+.title-contato {
+  color: #06d2c6;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.box-img {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+
+}
+
+input {
+  width: 100%;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+}
+p {
+  font-size: 14px;
+  padding-bottom: 25px;
+  text-align: justify;
+  padding-right: 20px;
+  line-height: 20px;
+}
+
+.serv-1{
+    color: #FF0000;
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 44px;
+}
+.serv-2{
+    color: blue;
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 44px;
+}
+.serv-3{
+    color: ##AE8800;
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 44px;
+}
+.serv-4{
+    color: #00e1ff;
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 44px;
+}
+
+.portafolio-s1{
+    color: #ecbb0adc;
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 44px;
+}
+.portafolio-s2{
+    color: #ae1400c4;
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 44px;
+}
+.portafolio-s3{
+    color: #01092e;
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 44px;
+}
+.portafolio-s4{
+    color: #40ae00;
+    font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 44px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00AF1C;
+    color: #fff;
+    height: 40px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
