@@ -1,0 +1,103 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLEXBOX</title>
+    <style>
+      body {
+        font-family: arial;
+      }
+      .flex{
+          display: flex;
+          height: 100px;
+          border: 1px solid orange;
+          background: pink;
+          margin-bottom: 10px;
+      }
+      h2 {
+        font-size: 18px;
+        margin: 0 0 10px 0 0;
+        padding: 0 0 0px 0px 0px;
+      }
+      h3 {
+        font-size: 14px;
+      }
+      .flex div:nth-child(odd) {
+        background-color: red;
+      }
+      .flex div:nth-child(even) {
+        background-color: yellow;
+      }
+      .align-content-flex-start {
+        align-content: flex-start;
+      }
+      .align-content-flex-end {
+        align-content: flex-end;
+      }
+      .align-content-space-between {
+        align-content: space-between;
+      }
+      .align-content-space-around {
+        align-content: space-around;
+      }
+      .align-content-center {
+        align-content: center;
+      }
+      .align-content-stretch {
+        align-content: stretch;
+      }
+      .align-content-baseline {
+        align-content: baseline;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <h2>ALIGN CONTENT</h2>
+    <hr />
+    <h3>flex-start</h3>
+    <div class="flex align-content-flex-start">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+    <br>
+    <div class="flex align-content-flex-end">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+      </div>
+      <br>
+      <div class="flex align-content-space-between">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+      </div>
+      <br>
+      <div class="flex align-content-space-around">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+      </div>
+      <br>
+      <div class="flex align-content-center">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+      </div>
+      <br>
+      <div class="flex align-content-stretch">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+      </div>
+    </div>
+  </body>
+</html>
